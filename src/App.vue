@@ -68,7 +68,7 @@
         </template>
       </v-list>
     </v-navigation-drawer>
-
+    <!-- menu bar ด้านบนสุดของ interface -->
     <v-app-bar :clipped-left="$vuetify.breakpoint.lgAndUp" app color="indigo lighten-1" dark>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title style="width: 300px" class="ml-0 pl-4">
@@ -83,21 +83,18 @@
         label="Search"
         class="hidden-sm-and-down"
       />
-      <v-spacer />
-      <v-btn-item link>
-        <v-btn-item-action>
+      <v-spacer /> <v-spacer />
+      <!-- icon home and timesheet link to interface หลัก-->
       <v-btn icon>
-        <v-icon>mdi-home-circle</v-icon>
+        <v-icon size="35" @click="$router.push('/')">mdi-home-circle</v-icon>
       </v-btn>
-      </v-btn-item-action>
-            <router-link to="/"></router-link>
-          </v-btn-item>
+
       <v-btn icon>
-        <v-icon>mdi-message-draw</v-icon>
+        <v-icon size="35" @click="$router.push('parasite')">mdi-message-draw</v-icon>
       </v-btn>
       <v-btn icon large>
-        <v-avatar size="32px" item>
-          <v-img src="https://cdn.vuetifyjs.com/images/logos/logo.svg" alt="Vuetify" />
+        <v-avatar size="35px" @click="$router.push('/')">
+          <img src="../src/assets/bearnoi.png"/>
         </v-avatar>
       </v-btn>
     </v-app-bar>
@@ -110,6 +107,7 @@
     </v-content>
   </v-app>
 </template>
+<!-- icon drawer -->
 <script>
 export default {
   props: {

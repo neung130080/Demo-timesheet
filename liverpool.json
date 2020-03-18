@@ -1,32 +1,32 @@
 {
   "mane": [
     {
-      "id": 7,
-      "name": "parinya hewchaiyaphum",
-      "rank": "commander",
-      "hero": "Violett",
-      "winrate": "76%",
-      "date": "2020-03-03",
-      "notes": "kao ma di kabbbbbbbbb",
-      "level": "80"
+      "id": 1,
+      "name": "prises",
+      "level": "high",
+      "rank": "low",
+      "hero": "medium",
+      "win rate": "low",
+      "date": "low",
+      "notes": "low"
     },
     {
-      "id": 8,
-      "name": "Arther Rick",
-      "rank": "daimon",
+      "id": 2,
+      "name": "parasite",
+      "rank": "daimons",
       "hero": "Yorn",
-      "winrate": "70%",
-      "date": "2018-02-07",
-      "notes": "ก็มาดิวะ ! "
+      "winrate": "80%",
+      "date": "2020-02-14",
+      "notes": "หมูกะโจ๊ก"
     },
     {
-      "id": 9,
-      "name": "มวยโค้ก",
-      "rank": "Corrurel",
-      "hero": "veere",
-      "winrate": "80%",
-      "date": "2020-06-18",
-      "notes": "หมูกะโจ๊ก"
+      "id": 3,
+      "name": "PJY ' 1993",
+      "rank": "courerl",
+      "hero": "Macloh",
+      "winrate": "65%",
+      "date": "2020-03-03",
+      "notes": "what the fuck !!"
     }
   ]
 }

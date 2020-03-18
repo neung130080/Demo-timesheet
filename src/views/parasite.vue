@@ -1,8 +1,10 @@
 <template>
   <v-layout child-flex>
+      <!-- buttons + เพื่อเพิ่มข้อมูลและdetails ในการทำงาน timesheet -->
     <v-btn bottom color="red lighten-2" dark fab fixed right buttom @click="dialog = !dialog">
       <v-icon>mdi-plus</v-icon>
     </v-btn>
+    <!-- หัวขอแบบฟอร์ม-->
     <v-dialog v-model="dialog" width="800px">
       <v-card>
         <v-card-title color="white--text" class="orange lighten-5">Save my Rank</v-card-title>
@@ -69,14 +71,6 @@
         <v-toolbar flat color="indigo lighten-3">
           <v-toolbar-title class="white--text">Information Level Rank</v-toolbar-title>
           <v-spacer />
-          <v-text-field
-            flat
-            solo-inverted
-            hide-details
-            prepend-inner-icon="mdi-magnify"
-            label="Search"
-            class="hidden-sm-and-down"
-          />
         </v-toolbar>
       </template>
       <template v-slot:item.date="{ item }">{{item.date | formatDate }}</template>
