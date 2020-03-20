@@ -73,7 +73,7 @@
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title style="width: 300px" class="ml-0 pl-4">
         <span class="hidden-sm-and-down">Enterprise System</span>
-        <v-icon>mdi-library</v-icon>
+        <v-icon></v-icon>
       </v-toolbar-title>
       <v-text-field
         flat
@@ -91,6 +91,9 @@
 
       <v-btn icon>
         <v-icon size="35" @click="$router.push('parasite')">mdi-message-draw</v-icon>
+      </v-btn>
+      <v-btn icon>
+        <v-icon size="35" @click="$router.push('about')">mdi-library</v-icon>
       </v-btn>
       <v-btn icon large>
         <v-avatar size="35px" @click="$router.push('/')">
